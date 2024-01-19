@@ -7,9 +7,8 @@ str = "X-DSPAM-Confidence: 0.8475"
 # index position
 ipos = str.find(':')
 print(ipos)
-match = str[ipos+2:]
-# print(piece)
+number = str[ipos+2:]
 
 
-value = float(match)
+value = float(number)
 print(value)
